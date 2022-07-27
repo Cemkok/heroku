@@ -14,7 +14,7 @@ import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
 
-@PropertySource("classpath:application-${spring.profiles.active:prod}.properties")
+@PropertySource("classpath:application-${spring.profiles.active:default}.properties")
 
 public class Microservice2MainServiceApplication {
 
